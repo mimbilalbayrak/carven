@@ -21,7 +21,7 @@ const barlow = Barlow({
 })
 
 export const metadata: Metadata = {
-  title: 'Carven Editor',
+  title: 'Pascal Editor',
   description: 'Standalone building editor',
 }
 
