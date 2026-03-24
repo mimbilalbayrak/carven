@@ -3,7 +3,6 @@ import { Barlow } from 'next/font/google'
 import localFont from 'next/font/local'
 import Script from 'next/script'
 import './globals.css'
-
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
   variable: '--font-geist-sans',
@@ -12,19 +11,16 @@ const geistMono = localFont({
   src: './fonts/GeistMonoVF.woff',
   variable: '--font-geist-mono',
 })
-
 const barlow = Barlow({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-barlow',
   display: 'swap',
 })
-
 export const metadata: Metadata = {
-  title: 'Pascal Editor',
-  description: 'Standalone building editor',
+  title: 'Carven',
+  description: 'Mimari proje editörü',
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
