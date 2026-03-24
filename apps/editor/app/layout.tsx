@@ -18,8 +18,8 @@ const barlow = Barlow({
   display: 'swap',
 })
 export const metadata: Metadata = {
-  title: 'Carven',
-  description: 'Mimari proje editörü',
+  title: 'Pascal Editor',
+  description: 'Standalone building editor',
 }
 export default function RootLayout({
   children,
